@@ -7,4 +7,5 @@
 @import "css/_footer.css";
 a {
   cursor: pointer;
+  text-decoration: none;
 }

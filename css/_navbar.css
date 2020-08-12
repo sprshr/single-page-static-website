@@ -5,11 +5,15 @@
     height: 80px;
     padding: 15px 0;
     text-align: center;
-    color: #82868f;
+    
 }
 .logo{
 font: 500 24px Roboto;
 justify-self: flex-start;
+}
+.logo a{
+    color: #82868f;
+    text-decoration: none;
 }
 .nav ul{
     overflow-y: visible;

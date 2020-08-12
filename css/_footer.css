@@ -16,8 +16,6 @@ div.links {
   justify-content: center;
   align-content: flex-end;
 }
-div.social {
-}
 .links ul {
   display: flex;
   justify-content: space-between;
@@ -27,8 +25,8 @@ div.social {
 }
 .links ul li a, .bottom ul li a, .bottom ul li {
   color: #d7dee4;
-  text-decoration: none;
   margin: 15px;
+  text-decoration: none;
 }
 .social a {
   color: #d7dee4;

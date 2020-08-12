@@ -28,6 +28,7 @@
     background-color: #0ebfdd;
     text-align: center;
     border: none;
+    color: #f7fdfe;
 }
 .card img{
     margin-bottom: 13px;
@@ -48,4 +49,8 @@
     border-radius: 25px;
     font-weight: 400;
     font-size: 17px;
+}
+.team .container span a{
+  text-decoration: none;
+  color: #f7fdfe;
 }
