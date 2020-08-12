@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import "css/_navbar.css";
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-.container-fluid {
-  width: 100%;
-  margin: auto;
-}
+@import "css/_header.css";
 a {
   cursor: pointer;
 }
