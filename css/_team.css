@@ -1,0 +1,51 @@
+.team {
+  background-color: #0ebfdd;
+  height: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team div.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.team div.container h2 {
+  align-self: flex-start;
+  color: #ffffff;
+  padding: 13px 0 25px 0;
+  font-size: 36px;
+}
+.team-profile {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 93%;
+}
+.card{
+    background-color: #0ebfdd;
+    text-align: center;
+    border: none;
+}
+.card img{
+    margin-bottom: 13px;
+}
+.name{
+    font-weight: 500;
+    font-size: 18px;
+}
+.position{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+}
+.team-profile + span{
+    margin-top: 42px;
+    padding: 10px 25px;
+    border: solid 2px #f9fbfb;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 17px;
+}

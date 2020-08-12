@@ -2,6 +2,7 @@
 @import "css/_navbar.css";
 @import "css/_header.css";
 @import "css/_about.css";
+@import "css/_team.css";
 a {
   cursor: pointer;
 }
