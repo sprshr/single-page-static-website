@@ -1,0 +1,31 @@
+.map {
+  background: url(../img/area.png);
+  height: 600px;
+}
+.pin1 {
+  top: 294px;
+  left: 292px;
+}
+.pin2 {
+  top: 156px;
+  right: 756px;
+}
+.pin3 {
+  top: 467px;
+  left: 571px;
+}
+.address{
+  top: 205px;
+    left: 281px;
+}
+.map address span{
+  display: inline;
+  width: 180px;
+  height: 80px;
+  text-align: left;
+  font-size: 14px;
+}
+.map address span{
+  top: -16px;
+    left: 10px;
+}

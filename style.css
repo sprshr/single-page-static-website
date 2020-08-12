@@ -3,6 +3,8 @@
 @import "css/_header.css";
 @import "css/_about.css";
 @import "css/_team.css";
+@import "css/_map.css";
+
 a {
   cursor: pointer;
 }
