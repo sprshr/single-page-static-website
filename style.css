@@ -44,7 +44,7 @@ justify-self: flex-start;
 /* navbar end */
 /* header start */
 header {
-  background: url(../img/78.png);
+  background: url(img/78.png);
   background-repeat: round;
   height: 90%;
   color: #f7fdfe;
@@ -162,7 +162,7 @@ header span p {
 /* team end */
 /* map start */
 .map {
-  background: url(../img/area.png);
+  background: url(img/area.png);
   height: 600px;
 }
 .pin1 {
