@@ -9,3 +9,234 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+/* navbar start */
+.nav{
+  font: 300 16px Roboto;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 80px;
+  padding: 15px 0;
+  text-align: center;
+  
+}
+.logo{
+font: 500 24px Roboto;
+justify-self: flex-start;
+}
+.logo a{
+  color: #82868f;
+  text-decoration: none;
+}
+.nav ul{
+  overflow-y: visible;
+}
+.nav ul li{
+  display: inline;
+  padding:6px 20px 6px 20px ;
+  line-height: 40px;
+}
+.nav ul li:last-child{
+  background-color: #0ebfdd;
+  border-radius: 14px;
+  line-height: 30px;
+  color: #f7fdfe;
+}
+/* navbar end */
+/* header start */
+header {
+  background: url(../img/78.png);
+  background-repeat: round;
+  height: 90%;
+  color: #f7fdfe;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+header span {
+  text-align: center;
+  margin-bottom: 207px;
+  width: 800px;
+}
+header span h3 {
+  font-size: 53px;
+  font-weight: 500;
+}
+header span h3::before {
+  content: "\272D";
+  font-size: 34px;
+  vertical-align: 10px;
+  margin-right: 9px;
+}
+header span h3::after {
+  content: "\272D";
+  font-size: 34px;
+  vertical-align: 10px;
+  margin-left: 9px;
+}
+header span p {
+  font-size: 25px;
+}
+/* header end */
+/* about start */
+.about {
+  height: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+}
+.about h3 {
+  color: #0ebfdd;
+  font-weight: 500;
+  font-size: 53px;
+  align-self: flex-start;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 25px;
+  line-height: 29px;
+}
+/* about end */
+/* team start */
+.team {
+  background-color: #0ebfdd;
+  height: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team div.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.team div.container h2 {
+  align-self: flex-start;
+  color: #ffffff;
+  padding: 13px 0 25px 0;
+  font-size: 36px;
+}
+.team-profile {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 93%;
+}
+.card{
+    background-color: #0ebfdd;
+    text-align: center;
+    border: none;
+    color: #f7fdfe;
+}
+.card img{
+    margin-bottom: 13px;
+}
+.name{
+    font-weight: 500;
+    font-size: 18px;
+}
+.position{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+}
+.team-profile + span{
+    margin-top: 42px;
+    padding: 10px 25px;
+    border: solid 2px #f9fbfb;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.team .container span a{
+  text-decoration: none;
+  color: #f7fdfe;
+}
+/* team end */
+/* map start */
+.map {
+  background: url(../img/area.png);
+  height: 600px;
+}
+.pin1 {
+  top: 294px;
+  left: 292px;
+}
+.pin2 {
+  top: 156px;
+  right: 756px;
+}
+.pin3 {
+  top: 467px;
+  left: 571px;
+}
+.address{
+  top: 205px;
+    left: 281px;
+}
+.map address span{
+  display: inline;
+  width: 180px;
+  height: 80px;
+  text-align: left;
+  font-size: 14px;
+}
+.map address span{
+  top: -16px;
+    left: 10px;
+}
+/* map end */
+/* footer start */
+footer {
+  background: #45494d;
+  height: 15%;
+  margin-top: 0;
+}
+footer div.top {
+  height: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+div.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+}
+.links ul li, .bottom ul li {
+  list-style-type: none;
+}
+.links ul li a, .bottom ul li a, .bottom ul li {
+  color: #d7dee4;
+  margin: 15px;
+  text-decoration: none;
+}
+.social a {
+  color: #d7dee4;
+  border: solid 1px #d7dee4;
+  border-radius: 50%;
+  margin: 15px;
+  padding: 7px;
+}
+.line{
+    background-color: rgba(215, 222, 228, 0.24) ;
+    height: 2%;
+}
+.bottom, .bottom ul{
+    display: flex;
+    justify-content: flex-end;
+}
+/* footer end */
