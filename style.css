@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import "css/_navbar.css";
 @import "css/_header.css";
+@import "css/_about.css";
 a {
   cursor: pointer;
 }

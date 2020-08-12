@@ -1,0 +1,21 @@
+.about {
+  height: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+}
+.about h3 {
+  color: #0ebfdd;
+  font-weight: 500;
+  font-size: 53px;
+  align-self: flex-start;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 25px;
+}
